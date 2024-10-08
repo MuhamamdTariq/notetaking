@@ -1,0 +1,25 @@
+Create a drop down list with each listitem having a delete button next to it;
+make sure when the items delete they do it with a smooth transition;
+when the browser loads the elements flow in and ease in smoothly from a higher scale;
+Create a button to see all notes;
+
+Connect to a mysql database and with php manually handle the notes;
+if a note is added than make sure the note is added to the database;
+if a note is deleted than make sure the note is deleted from the database; * 
+limit the number of list items to 5 items; * 
+Use a button that opens all these notes;
+make sure the note is opened like a triger with a list of all the notes and an x button to close that trigger;
+
+
+// create a user registration page the same way, 
+use regexpressions to filter the data and the password
+use the same ajax fetch and request for login authentication
+finish the php tutorial before you do this
+First you need to create a register page
+Then create relationship with the user_id and the notes_list table
+which will dynamically appear once a user of any support logs in
+you can also store images in another directory and store it in the database  - store the image path in the database
+use php ahref to link to that directory folder and that image
+
+Create a button which when clicked will give you the downloaded pdf of all the notes;
+

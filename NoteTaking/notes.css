@@ -1,0 +1,116 @@
+.container{
+    display: inline-block;
+    width: 100%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+
+.note-box{
+    background-color: rgb(80, 80, 90);
+    display: block;
+    width: 40%;
+    color:white; 
+    border-radius:20px;   
+    display: block;
+    text-align: center;
+    float:left;
+
+}
+
+.note-box > * {
+    margin-top:20px;
+}
+
+
+h1{
+    font-family: monospace;
+}
+
+.note-box input{
+    display: block;
+    margin-right:auto;
+    margin-left:auto;
+    
+}
+
+.note-box > button{
+    margin-bottom:20px;
+}
+
+#notes-list > li{
+    width:400px;
+    list-style: none;
+    background-color: white;
+    height:30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+    margin-right:auto;
+    margin-left:auto;
+    align-content:center;
+    margin-bottom:20px; 
+
+
+}
+
+.note-counter > p{
+    background-color:black;
+    width:50px;
+    margin-right:auto;
+    margin-left:auto;
+    height:50px;
+    border-radius:40px;
+    overflow: hidden;
+    align-content: center;
+}
+
+
+.newnote{
+    visibility: collapse;
+    display: block;
+    float:inline-start;
+    border-radius:20px;
+    margin-left:40px;
+    width: 30%;
+    border:2px solid black;
+    background-color: black;
+    height:400px;
+    color:white;
+    text-align: center;
+    padding-bottom:20px;
+
+}
+
+.newnote h1{
+    width:auto;
+    text-align: center;
+}
+.allnotes > li{
+    width:70%;
+    background-color: white;
+    color:black;
+    margin-right:auto;
+    margin-left:auto;
+    list-style: none;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+
+
+#view-list{
+    visibility: visible;
+    width: auto;
+    border:none;
+    width:40px;
+    border-radius:4px;
+    position:relative;
+    right:190px;
+    top:10px;
+    
+}
+
+
+
+
+

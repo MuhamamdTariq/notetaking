@@ -1,0 +1,90 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* General styling */
+.section-form {
+    border: 2px solid black;
+    width: 500px;
+    text-align: center;
+    background-color: yellow;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Styling for count */
+.count {
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    border: 2px solid orange;
+    position:relative;
+    top:10px;
+}
+
+/* Styling for buttons */
+#button-add,
+#button-remove {
+    border: none;
+    background-color: inherit;
+}
+
+/* Styling for images */
+.images {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+/* Styling for elements list */
+.elements {
+    display: block;
+}
+
+.elements li {
+    list-style: none;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.elements li:first-child{
+    border-top:1px solid black;
+}
+/* Styling for the table */
+.table table {
+    margin-top:30px;
+    width: 50%;
+    border-collapse: collapse;
+    margin-right:auto;
+    margin-left:auto;
+
+}
+
+.table th,
+.table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: black;
+    color: white;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.table-title{
+    text-align: center;
+    margin-top:30px;
+}
